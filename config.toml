@@ -1,0 +1,26 @@
+baseURL = 'https://manavjain.sh/'
+languageCode = 'en-us'
+theme = "nightfall"
+title = "Manav's Digital Notebook"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+  [[menu.header]]
+    name = "wiki"
+    weight = 1
+    url = "/wiki" 
+ 
+
+[params]
+user = "root"
+hostname = "manavjain.sh"
+  [params.author]
+    name = "Manav's Digital Notebook"  # Website and RSS feed author
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+
